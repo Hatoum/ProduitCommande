@@ -1,0 +1,17 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-3 py-3" *ngFor="let produit of produits">
+          <div class="card" >
+      <img id="img" class="card-img-top px-4" src="../../assets/image/{{produit.image}}.jpg" >
+      <div class="card-body">
+        <h4 class="card-title">{{produit.nom}}</h4>
+        <p id="prix" class="card-text">Prix: {{produit.prixUnitaire}}</p>
+        <p id="Quantite"class="card-text">Quantite en stock: {{produit.quantite}}</p>
+        <button (click)="addcommande()" type="submit"  class="btn btn-outline-success center">Ajouer au panier</button>
+      </div>
+    </div>
+    </div>
+
+  </div>
+</div>
+

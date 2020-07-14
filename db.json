@@ -1,0 +1,48 @@
+{
+  "produit": [
+    {
+      "id": 1,
+      "nom": "stylo",
+      "prixUnitaire": 0.5,
+      "quantite": 100,
+      "image": "stylo"
+    },
+    {
+      "id": 2,
+      "nom": "cahier",
+      "prixUnitaire": 0.75,
+      "quantite": 100,
+      "image": "cahier"
+    },
+    {
+      "id": 3,
+      "nom": "gomme",
+      "prixUnitaire": 0.35,
+      "quantite": 100,
+      "image": "gomme"
+    },
+    {
+      "id": 4,
+      "nom": "feutre",
+      "prixUnitaire": 0.7,
+      "quantite": 100,
+      "image": "feutre"
+    },
+    {
+      "nom": "tallas",
+      "prixUnitaire": "1",
+      "quantite": "120",
+      "id": 5
+    }
+  ],
+  "commande":[
+    {
+      "id":"1",
+      "DateCmd":"12/07/2020",
+      "montantLigne":120,
+      "prixTotale":1000
+    }
+  ]
+
+
+}

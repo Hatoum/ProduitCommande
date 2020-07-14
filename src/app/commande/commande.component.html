@@ -1,0 +1,20 @@
+<table  class="table" *ngFor="let commandes of commande">
+  <thead>
+      <tr>
+          <th scope="col" >Date Commande </th>
+          <th scope="col" >Prix Par ligne </th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>{{commandes.DateCmd}}</td>
+          <td>{{commandes.montantLigne}}</td>
+      </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <th scope="col">Total</th>
+      <td>{{commandes.prixTotale}}</td>
+    </tr>
+  </tfoot>
+</table>
